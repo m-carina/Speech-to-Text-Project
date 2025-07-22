@@ -3,7 +3,7 @@ import speech_recognition as sr
 language_reg = input("Choose language recognition: Type RO for Romanian or press Enter for English: ")
 duration = int(input("Set duration of speech recording (in seconds) = "))
 
-# initialize the recognizer
+# initializing the recognizer
 r = sr.Recognizer()
 print("Please talk")
 
